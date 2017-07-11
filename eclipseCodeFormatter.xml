@@ -1,0 +1,15 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="defaultSettings" value="true" />
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1493828350524" />
+          <option name="name" value="default" />
+          <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/eclipse_pref (1).epf" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>
