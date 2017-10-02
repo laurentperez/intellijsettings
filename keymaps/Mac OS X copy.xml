@@ -1,0 +1,5 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="LoadUnloadModules">
+    <keyboard-shortcut first-keystroke="meta a_with_grave" />
+  </action>
+</keymap>
