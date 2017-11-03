@@ -5,21 +5,64 @@
         <file url="PROJECT" charset="UTF-8" />
       </component>
       <component name="FileColors">
+        <fileColor scope="Non-Project Files (Material Default)" color="415967" />
+        <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
+        <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
+        <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
         <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
         <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
         <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
         <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
       </component>
       <component name="InspectionProjectProfileManager">
-        <option name="PROJECT_PROFILE" />
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ignoreAnonymousInnerClasses" value="false" />
+            <option name="superClassString" value="" />
+          </inspection_tool>
+        </profile>
         <version value="1.0" />
       </component>
-      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" />
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Abstraction issuesJava</id>
+              </State>
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>Security issuesJava</id>
+              </State>
+              <State>
+                <id>Serialization issuesJava</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>SerializableHasSerialVersionUIDField</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="Errors" />
+      </component>
       <component name="RunManager">
         <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
           <module name="" />
           <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
           <option name="PROGRAM_PARAMETERS" />
+          <predefined_log_file id="idea.log" enabled="true" />
           <method />
         </configuration>
         <configuration default="true" type="Applet" factoryName="Applet">
@@ -101,22 +144,6 @@
           <listeners />
           <method />
         </configuration>
-      </component>
-      <component name="masterDetails">
-        <states>
-          <state key="ProjectJDKs.UI">
-            <settings>
-              <last-edited>1.8</last-edited>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-        </states>
       </component>
     </defaultProject>
   </component>
